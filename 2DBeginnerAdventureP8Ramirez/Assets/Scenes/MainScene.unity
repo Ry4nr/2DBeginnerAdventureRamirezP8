@@ -28297,7 +28297,7 @@ Transform:
   m_GameObject: {fileID: 2122134103}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.0969, y: -3.4047, z: 0}
+  m_LocalPosition: {x: -21.76, y: 21.18, z: 0}
   m_LocalScale: {x: 0.6097561, y: 0.6097561, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28470,12 +28470,12 @@ PrefabInstance:
     - target: {fileID: 2008137950147792182, guid: a81e04abba2db304d855722f1969d3d5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.46
+      value: 17.52
       objectReference: {fileID: 0}
     - target: {fileID: 2008137950147792182, guid: a81e04abba2db304d855722f1969d3d5,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.38
+      value: -2.28
       objectReference: {fileID: 0}
     - target: {fileID: 2008137950147792182, guid: a81e04abba2db304d855722f1969d3d5,
         type: 3}
@@ -28521,6 +28521,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2948922410821643093, guid: a81e04abba2db304d855722f1969d3d5,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

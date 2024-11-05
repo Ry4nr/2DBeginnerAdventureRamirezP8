@@ -46,4 +46,12 @@ direction = - direction;
         rigidbody2d.MovePosition(position);
 
     }
+    private void OnCollisionEnter2D (Collision2D other)
+    {
+        FelipeController player = other.gameObject.GetComponent<FelipeController>();
+        if (player != null)
+        {
+            player.ChangeHealth(-1);
+        }
+    }
 }
